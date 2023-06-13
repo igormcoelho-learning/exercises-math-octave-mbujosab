@@ -16,5 +16,7 @@ endfunction
 
 # Exercise 2: write the correct answer on variable 'sol'
 function sol = exercise2()
-   # no solution yet... you need to fix this!
+   syms x;
+   g = x
+   sol = function_handle( int(g, x) )
 endfunction
